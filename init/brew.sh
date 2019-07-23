@@ -79,6 +79,8 @@ brew cask install disk-inventory-x
 
 brew cask install 1password
 
+brew cask install tunnelblick
+
 # Essential hacking tools
 brew install arp-scan
 brew install nmap
