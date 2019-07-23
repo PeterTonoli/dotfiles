@@ -56,7 +56,7 @@ brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
 brew install emacs
 brew install nvim
 brew cask install sublime-text3
-brew cask install git-kraken
+brew cask install gitkraken
 brew cask install iTerm2
 
 # Browsers
