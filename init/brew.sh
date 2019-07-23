@@ -72,7 +72,7 @@ brew cask install quicksilver
 brew cask install nextcloud
 
 # Quick-look extensions
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv suspicious-package qlimagesize
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv suspicious-package qlimagesize quicklook-json
 
 # Install other apps
 brew cask install disk-inventory-x
