@@ -72,7 +72,7 @@ brew cask install quicksilver
 brew cask install nextcloud
 
 # Quick-look extensions
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv suspicious-package qlimagesize
 
 # Install other apps
 brew cask install disk-inventory-x
@@ -88,3 +88,8 @@ brew install speedtest_cli
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Fix brew links
+brew link vim
+brew link --overwrite git
+brew link --overwrite nmap
