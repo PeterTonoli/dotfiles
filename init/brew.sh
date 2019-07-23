@@ -63,6 +63,8 @@ brew cask install iTerm2
 brew cask install firefox
 brew install lynx
 
+brew cask install thunderbird
+
 # productivity
 brew cask install quicksilver
 
