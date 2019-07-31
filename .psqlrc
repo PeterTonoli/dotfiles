@@ -1,0 +1,4 @@
+\timing on
+\pset linestyle unicode 
+\pset border 2
+\set HISTSIZE 100000

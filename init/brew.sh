@@ -56,12 +56,14 @@ brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
 brew install emacs
 brew install nvim
 brew cask install sublime-text3
-brew cask install git-kraken
+brew cask install gitkraken
 brew cask install iTerm2
 
 # Browsers
 brew cask install firefox
 brew install lynx
+
+brew cask install thunderbird
 
 # productivity
 brew cask install quicksilver
@@ -70,12 +72,14 @@ brew cask install quicksilver
 brew cask install nextcloud
 
 # Quick-look extensions
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv suspicious-package qlimagesize quicklook-json
 
 # Install other apps
 brew cask install disk-inventory-x
 
 brew cask install 1password
+
+brew cask install tunnelblick
 
 # Essential hacking tools
 brew install arp-scan
@@ -84,3 +88,8 @@ brew install speedtest_cli
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Fix brew links
+brew link vim
+brew link --overwrite git
+brew link --overwrite nmap
